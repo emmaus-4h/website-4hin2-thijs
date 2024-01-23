@@ -76,7 +76,7 @@ img {
 /* Opmaak voor alle pagina's */
 
 h1, h2, h3 {
-      color: #000000;
+      color: #0008fa;
 }
 
 .smalltext {
@@ -110,16 +110,31 @@ nav ul li {
 
 nav li a {
     display: block;
-    color: white;
+    color: #0029f5;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 nav li a:hover {
-    background-color: #000000;
+    background-color: #ffffff;
 }
 
 nav li a.active {
     background-color: #002c85;
 }
+
+
+#borderimg { 
+  border: 10px solid;
+  padding: 15px;
+  border-image: zuid-afrika-vlag.png 30 round;
+}
+
+#borderimg {
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(afbeeldingen/zuid-afrika-vlag.png) 30 stretch;
+}
+
+</p><img src="afbeeldinngen/zuid-afrika-vlag.">
